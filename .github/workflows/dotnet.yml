@@ -21,7 +21,7 @@ jobs:
       with:
         distribution: 'temurin' # See 'Supported distributions' for available options
         java-version: '17'
-        run: echo This is java version - $JAVA_VERSION
+        run: echo 'This is java version -' $JAVA_VERSION
     
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
