@@ -10,7 +10,7 @@ on:
     branches: [ "master" ]
 
 jobs:
-  building now:
+  buildingNow:
 
     runs-on: ubuntu-latest
 
